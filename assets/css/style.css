@@ -1,6 +1,10 @@
 .bgtexture--top-left {
   position: relative;
 }
+.bgtexture--top-left > * {
+  position: relative;
+  z-index: 1;
+}
 .bgtexture--top-left::before {
   position: absolute;
   top: 0;
