@@ -1,5 +1,6 @@
 .bgtexture--top-left {
   position: relative;
+  overflow: hidden;
 }
 .bgtexture--top-left > * {
   position: relative;
