@@ -18,3 +18,24 @@
   width: 100%;
   height: 100%;
 }
+
+.bgtexture--bottom-right {
+  position: relative;
+  overflow: hidden;
+}
+.bgtexture--bottom-right > * {
+  position: relative;
+  z-index: 1;
+}
+.bgtexture--bottom-right::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../images/bottom-right-texture.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: bottom right;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
